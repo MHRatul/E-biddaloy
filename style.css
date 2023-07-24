@@ -1,0 +1,372 @@
+/* ===========================================================
+                    Reset all default css style
+ ===========================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ===========================================================
+                    Reset all default css style end
+ ===========================================================*/
+
+
+
+/* ===========================================================================
+                            Header section Design
+=============================================================================*/
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.navbar .navbar-nav li a {
+    color: #000000;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #21B573;
+}
+
+.singin-btn {
+    background-color: #21B573;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 20px !important;
+}
+
+#mainBanner {
+    background: #F0FFF0;
+    width: 100%;
+}
+
+.right-img img {
+    width: 100%;
+}
+
+.banner .left-text h4 {
+    font-size: 16px;
+    color: #FD511A;
+}
+
+.banner .left-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner .left-text .highlight-grn {
+    color: #21B573;
+    font-weight: 400;
+}
+
+.banner .left-text p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    font-weight: 300;
+}
+
+/* ===========================================================================
+                            Media Queary for header
+=============================================================================*/
+@media only screen and (min-width: 220px) and (max-width: 567px) {
+    #service {
+        width: 100%;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    #service .col-3 {
+        width: 80% !important;
+        margin: 10%;
+    }
+
+    #courese .h3-title {
+        padding: 0 !important;
+        font-size: 9rem;
+    }
+
+    #courses .row {
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    #courses .col-4 {
+        text-align: center;
+        width: 80%;
+        margin: 10%;
+    }
+
+    #testiminial {
+        padding: 0 !important;
+        flex-direction: row !important;
+        align-content: center;
+    }
+
+    .testimonial-content .testi-img {
+        width: 100% !important;
+    }
+
+    footer .row {
+        justify-content: center;
+    }
+
+    footer .col-3 {
+        width: 95%;
+        margin: 2.5%;
+        text-align: center;
+    }
+
+    footer ul {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 1040px) {
+    #service .col-3 {
+        width: 46% !important;
+        margin: 2%;
+    }
+
+    #courses .col-4 {
+        width: 46%;
+        margin: 2%;
+    }
+
+    #courses .col-4:last-child {
+        width: 96%;
+        margin: 2%;
+    }
+
+    footer .col-3 {
+        width: 46%;
+        margin: 2%;
+        text-align: center;
+    }
+
+}
+
+/* ===========================================================================
+                            Media Queary for header
+=============================================================================*/
+
+
+/* ===========================================================================
+                            Header section Design End
+=============================================================================*/
+
+
+
+/* ===========================================================================
+                            Services section Design
+=============================================================================*/
+#service {
+    padding: 50px 0;
+}
+
+.box {
+    background-color: rgb(248, 255, 251);
+    width: 23%;
+    height: 270px;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* .box {
+    background-color: #F8FFFB;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+} */
+
+.box:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.41) 0px 13px 9px -4px;
+}
+
+.box:nth-child(2) {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.41) 0px 13px 9px -4px;
+}
+
+.box img {
+    width: 66px;
+    display: block;
+    margin: auto;
+}
+
+/* ===========================================================================
+                            Services section Design End
+=============================================================================*/
+
+
+
+/* ===========================================================================
+                            Courses section Design
+=============================================================================*/
+#courses {
+    padding-bottom: 50px !important;
+}
+
+.h3-title {
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+
+.courses-box {
+    width: 370px;
+    padding: 1rem;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.41) 0px 4px 7px 1px;
+
+}
+
+.courses-box>img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 17px;
+    margin-bottom: 16px;
+}
+
+.course-btn {
+    background-color: #21B573;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses-box .icon-img {
+    width: 24px;
+    margin-right: 5px;
+}
+
+/* ===========================================================================
+                            Courses section Design End
+=============================================================================*/
+
+
+
+/* ===========================================================================
+                            Tesstimonial section Design 
+=============================================================================*/
+#testiminial {
+    padding: 50px 0;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testi-img {
+    width: 20%;
+}
+
+.testi-pera {
+    width: 90%;
+}
+
+
+.testimonial-content img {
+    width: 110px;
+}
+
+/* ===========================================================================
+                            Tesstimonial section Design End
+=============================================================================*/
+
+
+
+/* ===========================================================================
+                            Footer section Design
+=============================================================================*/
+footer {
+    width: 100%;
+    background: #282531;
+    color: #fff;
+    padding: 50px 0 0 0;
+}
+
+.col-3 p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.col-3 .first-col {
+    width: 39%;
+}
+
+.second-col {
+    width: 19%;
+
+}
+
+.third-col {
+    width: 19%;
+}
+
+.fifth-col {
+    width: 19%;
+}
+
+footer .col-3 ul li:first-child {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .col-3 ul a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.copyright-text p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* ===========================================================================
+                            Footer section Design End
+=============================================================================*/
